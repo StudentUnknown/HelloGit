@@ -31,5 +31,6 @@ class HeadsOrTails{
 	}
 
 	System.out.println("Heads: " + heads + ", Tails: " + tails);
+	System.out.println(heads > tails ? "You won!" : "You lost.");
     }
 }
